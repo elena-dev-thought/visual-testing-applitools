@@ -1,0 +1,22 @@
+{
+  "name": "visual-testing-applitools",
+  "version": "1.0.0",
+  "description": "explore applitools product features",
+  "main": "index.js",
+  "scripts": {
+    "test": "node applitools.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elena-dev-thought/visual-testing-applitools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elena-dev-thought/visual-testing-applitools/issues"
+  },
+  "homepage": "https://github.com/elena-dev-thought/visual-testing-applitools#readme",
+  "devDependencies": {
+    "@applitools/eyes.webdriverio": "^1.2.0"
+  }
+}
