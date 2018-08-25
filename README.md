@@ -1,2 +1,2 @@
-# visual-testing-applotools
+# visual-testing-applitools
 explore applitools product features
