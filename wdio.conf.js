@@ -6,10 +6,15 @@ module.exports = {
   user: browserstackUser,
   key: browserstackKey,
   desiredCapabilities: {
-    os: 'OS X',
-    os_version: 'Sierra',
-    browser: 'Chrome',
-    resolution: '1280x1024',
+    // os: 'OS X',
+    // os_version: 'Sierra',
+    browser: 'Safari',
+    resolution: '375x812',
+    device: 'iPhone X',
+    realMobile: 'true',
+    os_version: '11.0',
+    safariAllowPopups: true,
+
     project: 'visual-regression-spike'
   }
 };
