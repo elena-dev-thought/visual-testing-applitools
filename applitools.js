@@ -19,7 +19,7 @@ async function main() {
     await eyes.open(browser, 'Hello World!', 'My first Javascript test Modified!', { width: 800, height: 600 });
 
     // Navigate the browser to the "hello world!" web-site.
-    await browser.url('https://visual-knight-test.devthought.de/sessions/signin');
+    await browser.url('https://applitools.com/');
 
     // Visual checkpoint #1.
     await eyes.check('Main Page', Target.window());
@@ -27,8 +27,8 @@ async function main() {
     // Click the "Click me!" button.
     await browser.click('button');
 
-    // Visual checkpoint #2.
-    await eyes.check('Click!', Target.window());
+    // // Visual checkpoint #2.
+    // await eyes.check('Click!', Target.window());
 
     // End the test.
     await eyes.close();
